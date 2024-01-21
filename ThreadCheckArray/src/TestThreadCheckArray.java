@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
@@ -35,9 +35,9 @@ public class TestThreadCheckArray {
 				System.out.println("Sorry");
 				return;
 			}
-			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().length);
+			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().size());
 			System.out.print("I:    ");
-			for(int index = 0; index < sd.getArray().length ; index++)
+			for(int index = 0; index < sd.getArray().size() ; index++)
 				System.out.print(index + "    ");
 			System.out.println();
 			System.out.print("A:    ");
